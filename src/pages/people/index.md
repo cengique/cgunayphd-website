@@ -1,7 +1,7 @@
 ---
-templateKey: 'product-page'
-path: /products
-title: Or Coffee
+templateKey: 'people-page'
+path: /people
+title: Gunay Lab People
 image: /img/jumbotron.jpg
 heading: Great coffee with a conscience
 description: >-
