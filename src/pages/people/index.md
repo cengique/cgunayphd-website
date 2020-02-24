@@ -3,7 +3,7 @@ templateKey: 'people-page'
 path: /people
 title: Gunay Lab People
 image: /img/jumbotron.jpg
-heading: Great coffee with a conscience
+heading: Current Lab Members
 description: >-
   abab
 intro:
