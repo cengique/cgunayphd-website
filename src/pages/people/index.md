@@ -8,18 +8,18 @@ description: >-
   abab
 intro:
   blurbs:
-    - image: /img/coffee.png
+    - image: /img/cgunay.jpg
       text: >
-        1
-    - image: /img/coffee-gear.png
+        Cengiz Gunay
+    - image: /img/ButtNett.png
       text: >
-        2 
-    - image: /img/tutorials.png
+        Don Charles Sugatapala
+    - image: /img/website profile.png
       text: >
-        3
-    - image: /img/meeting-space.png
+        Muna Zhou
+    - image: /img/website profile.png
       text: >
-        4
+        Jorg Ruprecht
   heading: What we offer
   description: >
     5
@@ -35,7 +35,7 @@ main:
     image: /img/products-grid2.jpg
   image3:
     alt: Coffee beans
-    image: /img/products-grid1.jpg
+    image: /img/ButtNett.png
 testimonials:
   - author: Elisabeth Kaurismäki
     quote: >-
