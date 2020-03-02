@@ -187,6 +187,7 @@ export const PeoplePageQuery = graphql`
             }
             text
             heading
+            name
           }
           heading
           description

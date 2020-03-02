@@ -9,25 +9,33 @@ description: >-
 intro:
   blurbs:
     - image: /img/cgunay.jpg
-      text: >
+      name: >
         Cengiz Gunay
       heading: >
         Professor
+      text: > 
+        a 
     - image: /img/ButtNett.png
-      text: >
+      name: >
         Don Charles Sugatapala
       heading: >
         a
+      text: > 
+        a 
     - image: /img/website profile.png
-      text: >
+      name: >
         Muna Zhou
       heading: >
         a
+      text: > 
+        a 
     - image: /img/website profile.png
-      text: >
+      name: >
         Jorg Ruprecht
       heading: >
         a
+      text: > 
+        a 
   heading: What we offer
   description: >
     5

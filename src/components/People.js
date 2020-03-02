@@ -16,8 +16,16 @@ const PeopleGrid = ({ gridItems }) => (
             >
               <PreviewCompatibleImage imageInfo={item} />
             </div>
+            <p 
+                className  = 'personHeading'
+            >
+                 <b>{item.name}</b> </p>
+            <p>{item.heading}</p>
+            <p>{item.text}</p>
+            
+
           </div>
-            <p>{item.text}{item.heading}</p>
+          
         </section>
       </div>
     ))}
