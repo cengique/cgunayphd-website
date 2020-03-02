@@ -11,15 +11,23 @@ intro:
     - image: /img/cgunay.jpg
       text: >
         Cengiz Gunay
+      heading: >
+        Professor
     - image: /img/ButtNett.png
       text: >
         Don Charles Sugatapala
+      heading: >
+        a
     - image: /img/website profile.png
       text: >
         Muna Zhou
+      heading: >
+        a
     - image: /img/website profile.png
       text: >
         Jorg Ruprecht
+      heading: >
+        a
   heading: What we offer
   description: >
     5
