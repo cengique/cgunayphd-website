@@ -38,7 +38,7 @@ currentlab:
         GSMST SCE intern, since 2019 
   heading: Current Lab Members
   description: >
-    5
+    
 collaborators:
   blurbs:
     - image: /img/cgunay.jpg
@@ -78,7 +78,7 @@ collaborators:
          Assistant Professor of Information Technology at GGC
   heading: Collaborators
   description: >
-    5
+    
 pastlab2019:
   blurbs:
     - image: /img/cgunay.jpg
@@ -118,7 +118,7 @@ pastlab2019:
          Assistant Professor of Information Technology at GGC
   heading: Past Lab Members 2019
   description: >
-    5
+    
 main:
   heading: Great coffee with no compromises
   description: >
