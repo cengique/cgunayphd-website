@@ -13,6 +13,7 @@ export const PeoplePageTemplate = ({
   heading,
   description,
   currentlab,
+  collaborators,
   main,
   testimonials,
   fullImage,
@@ -55,6 +56,13 @@ export const PeoplePageTemplate = ({
           <div className="columns">
             <div className="column is-10 is-offset-1">
               <People gridItems={currentlab.blurbs} />
+              <h3 className="has-text-weight-semibold is-size-2"
+              style={{
+                textAlign: "center",
+              }}
+                >{collaborators.heading}</h3>
+              <p>{collaborators.description}</p>
+              <People gridItems={collaborators.blurbs} />
               <div className="columns">
                 <div className="column is-7">
                   <h3 className="has-text-weight-semibold is-size-3">
@@ -116,6 +124,9 @@ PeoplePageTemplate.propTypes = {
   currentlab: PropTypes.shape({
     blurbs: PropTypes.array,
   }),
+  collaborators: PropTypes.shape({
+    blurbs: PropTypes.array,
+  }),
   main: PropTypes.shape({
     heading: PropTypes.string,
     description: PropTypes.string,
@@ -143,6 +154,7 @@ const PeoplePage = ({ data }) => {
         heading={frontmatter.heading}
         description={frontmatter.description}
         currentlab={frontmatter.currentlab}
+        collaborators={frontmatter.collaborators}
         main={frontmatter.main}
         testimonials={frontmatter.testimonials}
         fullImage={frontmatter.full_image}
@@ -177,6 +189,22 @@ export const PeoplePageQuery = graphql`
         heading
         description
         currentlab {
+          blurbs {
+            image {
+              childImageSharp {
+                fluid(maxWidth: 240, quality: 64) {
+                  ...GatsbyImageSharpFluid
+                }
+              }
+            }
+            text
+            heading
+            name
+          }
+          heading
+          description
+        }
+        collaborators {
           blurbs {
             image {
               childImageSharp {
