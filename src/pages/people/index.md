@@ -12,33 +12,32 @@ intro:
       name: >
         Cengiz Gunay
       heading: >
-        Professor
+        Lab Head
       text: > 
-        a 
+         Assistant Professor of Information Technology at GGC
     - image: /img/ButtNett.png
       name: >
         Don Charles Sugatapala
       heading: >
-        a
+        Student Assistant
       text: > 
-        a 
+        GGC student majoring in Psychology, minor in IT, since 2019
     - image: /img/website profile.png
       name: >
         Muna Zhou
       heading: >
-        a
+        Student Assistant
       text: > 
-        a 
+        GGC student majoring in Biology, since 2016 
     - image: /img/website profile.png
       name: >
         Jorg Ruprecht
       heading: >
-        a
+        Intern
       text: > 
-        a 
-  heading: What we offer
-  description: >
-    5
+        GSMST SCE intern, since 2019 
+  heading: Current Lab Members
+  description: 
 main:
   heading: Great coffee with no compromises
   description: >

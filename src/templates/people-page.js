@@ -48,8 +48,8 @@ export const PeoplePageTemplate = ({
               style={{
                 textAlign: "center",
               }}
-                >{heading}</h3>
-              <p>{description}</p>
+                >{intro.heading}</h3>
+              <p>{intro.description}</p>
             </div>
           </div>
           <div className="columns">
