@@ -1,6 +1,6 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import { PeoplePageTemplate } from '../../templates/People-page'
+import { PeoplePageTemplate } from '../../templates/people-page'
 
 const PeoplePagePreview = ({ entry, getAsset }) => {
   const entryBlurbs = entry.getIn(['data', 'intro', 'blurbs'])
