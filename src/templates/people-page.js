@@ -12,7 +12,7 @@ export const PeoplePageTemplate = ({
   title,
   heading,
   description,
-  intro,
+  currentlab,
   main,
   testimonials,
   fullImage,
@@ -48,13 +48,13 @@ export const PeoplePageTemplate = ({
               style={{
                 textAlign: "center",
               }}
-                >{intro.heading}</h3>
-              <p>{intro.description}</p>
+                >{currentlab.heading}</h3>
+              <p>{currentlab.description}</p>
             </div>
           </div>
           <div className="columns">
             <div className="column is-10 is-offset-1">
-              <People gridItems={intro.blurbs} />
+              <People gridItems={currentlab.blurbs} />
               <div className="columns">
                 <div className="column is-7">
                   <h3 className="has-text-weight-semibold is-size-3">
@@ -113,7 +113,7 @@ PeoplePageTemplate.propTypes = {
   title: PropTypes.string,
   heading: PropTypes.string,
   description: PropTypes.string,
-  intro: PropTypes.shape({
+  currentlab: PropTypes.shape({
     blurbs: PropTypes.array,
   }),
   main: PropTypes.shape({
@@ -142,7 +142,7 @@ const PeoplePage = ({ data }) => {
         title={frontmatter.title}
         heading={frontmatter.heading}
         description={frontmatter.description}
-        intro={frontmatter.intro}
+        currentlab={frontmatter.currentlab}
         main={frontmatter.main}
         testimonials={frontmatter.testimonials}
         fullImage={frontmatter.full_image}
@@ -176,7 +176,7 @@ export const PeoplePageQuery = graphql`
         }
         heading
         description
-        intro {
+        currentlab {
           blurbs {
             image {
               childImageSharp {

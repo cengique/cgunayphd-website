@@ -6,7 +6,7 @@ image: /img/jumbotron.jpg
 heading: Current Lab Members
 description: >-
   abab
-intro:
+currentlab:
   blurbs:
     - image: /img/cgunay.jpg
       name: >
@@ -37,7 +37,8 @@ intro:
       text: > 
         GSMST SCE intern, since 2019 
   heading: Current Lab Members
-  description: 
+  description: >
+    5
 main:
   heading: Great coffee with no compromises
   description: >
