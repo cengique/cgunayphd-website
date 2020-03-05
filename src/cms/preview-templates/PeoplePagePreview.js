@@ -3,7 +3,7 @@ import PropTypes from 'prop-types'
 import { PeoplePageTemplate } from '../../templates/People-page'
 
 const PeoplePagePreview = ({ entry, getAsset }) => {
-  const entryBlurbs = entry.getIn(['data', 'intro', 'blurbs'])
+  const entryBlurbs = entry.getIn(['data', 'intro', 'collaborators', 'currentlab', 'blurbs', 'pastlab2019'])
   const blurbs = entryBlurbs ? entryBlurbs.toJS() : []
 
   const entryTestimonials = entry.getIn(['data', 'testimonials'])
