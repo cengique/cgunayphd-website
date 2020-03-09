@@ -7,6 +7,7 @@ import BlogPostPreview from './preview-templates/BlogPostPreview'
 import ProductPagePreview from './preview-templates/ProductPagePreview'
 import IndexPagePreview from './preview-templates/IndexPagePreview'
 import PeoplePagePreview from './preview-templates/PeoplePagePreview'
+import ProjectPagePreview from './preview-templates/ProjectPagePreview'
 
 CMS.registerMediaLibrary(uploadcare)
 CMS.registerMediaLibrary(cloudinary)
@@ -16,3 +17,4 @@ CMS.registerPreviewTemplate('about', AboutPagePreview)
 CMS.registerPreviewTemplate('products', ProductPagePreview)
 CMS.registerPreviewTemplate('blog', BlogPostPreview)
 CMS.registerPreviewTemplate('people', PeoplePagePreview)
+CMS.registerPreviewTemplate('projects', ProjectPagePreview)
