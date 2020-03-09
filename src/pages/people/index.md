@@ -159,6 +159,46 @@ pastlab2018:
          Assistant Professor of Information Technology at GGC
   heading: Past Lab Members 2018
   description: >
+
+pastlab2017:
+  blurbs:
+    - image: /img/cgunay.jpg
+      name: >
+        Cengiz Gunay
+      heading: >
+        Lab Head
+      text: > 
+         Assistant Professor of Information Technology at GGC
+    - image: /img/ButtNett.png
+      name: >
+        Don Charles Sugatapala
+      heading: >
+        Student Assistant
+      text: > 
+        GGC student majoring in Psychology, minor in IT, since 2019
+    - image: /img/website profile.png
+      name: >
+        Muna Zhou
+      heading: >
+        Student Assistant
+      text: > 
+        GGC student majoring in Biology, since 2016 
+    - image: /img/website profile.png
+      name: >
+        Jorg Ruprecht
+      heading: >
+        Intern
+      text: > 
+        GSMST SCE intern, since 2019
+    - image: /img/cgunay.jpg
+      name: >
+        Cengiz Gunay
+      heading: >
+        Lab Head
+      text: > 
+         Assistant Professor of Information Technology at GGC
+  heading: Past Lab Members 2017
+  description: >
 main:
   heading: Great coffee with no compromises
   description: >

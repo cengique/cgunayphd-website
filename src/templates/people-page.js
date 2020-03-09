@@ -16,6 +16,7 @@ export const PeoplePageTemplate = ({
   collaborators,
   pastlab2019,
   pastlab2018,
+  pastlab2017,
   main,
   testimonials,
   fullImage,
@@ -119,6 +120,13 @@ export const PeoplePageTemplate = ({
                 >{pastlab2018.heading}</h3>
               <p>{pastlab2018.description}</p>
               <People gridItems={pastlab2018.blurbs} />
+              <h3 className="has-text-weight-semibold is-size-2"
+              style={{
+                textAlign: "center",
+              }}
+                >{pastlab2017.heading}</h3>
+              <p>{pastlab2017.description}</p>
+              <People gridItems={pastlab2017.blurbs} />
               <h2 className="has-text-weight-semibold is-size-2">
                 {pricing.heading}
               </h2>
@@ -147,6 +155,9 @@ PeoplePageTemplate.propTypes = {
     blurbs: PropTypes.array,
   }),
   pastlab2018: PropTypes.shape({
+    blurbs: PropTypes.array,
+  }),
+  pastlab2017: PropTypes.shape({
     blurbs: PropTypes.array,
   }),
   main: PropTypes.shape({
@@ -179,6 +190,7 @@ const PeoplePage = ({ data }) => {
         collaborators={frontmatter.collaborators}
         pastlab2019={frontmatter.pastlab2019}
         pastlab2018={frontmatter.pastlab2018}
+        pastlab2017={frontmatter.pastlab2017}
         main={frontmatter.main}
         testimonials={frontmatter.testimonials}
         fullImage={frontmatter.full_image}
@@ -261,6 +273,22 @@ export const PeoplePageQuery = graphql`
           description
         }
         pastlab2018 {
+          blurbs {
+            image {
+              childImageSharp {
+                fluid(maxWidth: 240, quality: 64) {
+                  ...GatsbyImageSharpFluid
+                }
+              }
+            }
+            text
+            heading
+            name
+          }
+          heading
+          description
+        }
+        pastlab2017 {
           blurbs {
             image {
               childImageSharp {
